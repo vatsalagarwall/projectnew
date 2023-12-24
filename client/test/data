@@ -1,0 +1,156 @@
+import dsh1 from "./images/dsh1.jpg"
+import dsh2 from "./images/dsh2.jpg"
+import dsh3 from "./images/dsh3.jpg"
+import dsh4 from "./images/dsh4.jpg"
+import dsh5 from "./images/dsh5.jpg"
+import dsh6 from "./images/dsh6.jpg"
+import dsh7 from "./images/dsh7.jpg"
+import dsh8 from "./images/dsh8.jpg"
+import dsh9 from "./images/dsh9.jpg"
+import dsh10 from "./images/dsh10.jpg"
+import dsh11 from "./images/dsh11.jpg"
+export const data = [
+    {
+        "name": "Veggie Delight Rice Bowl",
+        "img": dsh1,
+        // "img": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmljZSUyMGJvd2x8ZW58MHwwfDB8fHww",
+        "price": "200",
+        "info": {
+            "mainIngredients": ["Mixed Vegetables"],
+            "calories": 350
+        },
+        "description": "A delicious rice bowl loaded with a variety of fresh vegetables and savory seasonings.",
+        "quantity": "1"
+    },
+    {
+        "name": "Chickpea Rice Bowl",
+        "img": dsh2,
+        // "img": "https://images.unsplash.com/photo-1604579278540-db35e2fa658a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHJpY2UlMjBib3dsfGVufDB8MHwwfHx8MA%3D%3D",
+        "price": "300",
+        "info": {
+            "mainIngredients": "Chickpeas, Fresh Vegetables & Aromatic Spices.",
+            "calories": 400
+        },
+        "description": "A delicious rice bowl loaded with a variety of fresh vegetables and savory seasonings.",
+        "quantity": "1"
+    },
+    {
+        "name": "Teriyaki Tofu Rice Bowl",
+        "img": dsh3,
+        // "img": "https://images.unsplash.com/photo-1581184953963-d15972933db1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJpY2UlMjBib3dsfGVufDB8MHwwfHx8MA%3D%3D",
+        "price": "350",
+        "info": {
+            "mainIngredients": "Tofu, Teriyaki Sauce & Vegetables.",
+            "calories": 450
+        },
+        "description": "A satisfying rice bowl featuring crispy tofu glazed with teriyaki sauce, accompanied by vegetables.",
+        "quantity": "1"
+    },
+    {
+        "name": "Spicy Black Bean and Corn Rice Bowl",
+        "img": dsh4,
+        // "img": "https://images.unsplash.com/photo-1584278859516-41e5af3920ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHJpY2UlMjBib3dsfGVufDB8MHwwfHx8MA%3D%3D",
+        "price": "200",
+        "info": {
+            "mainIngredients": "Black Beans, Corn & Spices.",
+            "calories": 380
+        },
+        "description": "A spicy and hearty rice bowl with black beans, corn, and a  kick of spices, creating an amazing flavor experience.",
+        "quantity": "1"
+    },
+    {
+        "name": "Sesame Ginger Vegetable Rice Bowl",
+        "img": dsh5,
+        // "img": "https://plus.unsplash.com/premium_photo-1695030934401-2dd6b05bf77f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fHJpY2UlMjBib3dsfGVufDB8MHwwfHx8MA%3D%3D",
+        "price": "300",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A flavorful rice bowl with a delightful mix of stir-fried vegetables in a savory sesame ginger sauce.",
+        "quantity": "1"
+    },
+    {
+        "name": "Crispy Tofu and Vegetable Teriyaki Rice Bowl",
+        "img": dsh6,
+        // "img": "https://images.unsplash.com/photo-1679279726937-122c49626802?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "400",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A delightful rice bowl featuring crispy tofu and a colorful medley of vegetables in a teriyaki glaze.",
+        "quantity": "1"
+    },
+    {
+        "name": "Southwest Quinoa and Avocado Rice Bowl",
+        "img": dsh7,
+        // "img": "https://images.unsplash.com/photo-1594998893017-36147cbcae05?q=80&w=1786&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "400",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A southwestern-inspired rice bowl with quinoa, avocado, black beans, and a zesty dressing.",
+        "quantity": "1"
+    },
+    {
+        "name": "Roasted Vegetable and Hummus Rice Bowl",
+        "img": dsh8,
+        // "img": "https://plus.unsplash.com/premium_photo-1701006579460-e7c6939a3558?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "400",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A wholesome rice bowl with roasted vegetables and a dollop of creamy hummus.",
+        "quantity": "1"
+    },
+    {
+        "name": "Green Curry Tofu and Vegetable Rice Bowl",
+        "img": dsh9,
+        // "img": "https://images.unsplash.com/photo-1653849942524-ef2c6882d70d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "300",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A vibrant rice bowl with green curry-infused tofu and a variety of fresh vegetables.",
+        "quantity": "1"
+    },
+    {
+        "name": "Sweet Potato and Black Bean Rice Bowl",
+        "img": dsh10,
+        // "img": "https://images.unsplash.com/photo-1580442151529-343f2f6e0e27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "250",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A nourishing rice bowl featuring roasted sweet potatoes, black beans, and a blend of spices.",
+        "quantity": "1"
+    }, {
+        "name": "Green Goddess Garden Bowl Delight",
+        "img": dsh11,
+        // "img": "https://www.mexicanplease.com/wp-content/uploads/2017/06/mexican-green-rice-after-cooking-in-bowl.jpg",
+        "price": "300",
+        "info": {
+            "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+            "calories": 420
+        },
+        "description": "A delicious rice bowl loaded with a variety of fresh vegetables and savory seasonings.",
+        "quantity": "1"
+    },
+    // {
+    //     "name": "Harvest Medley Bliss Bowl Delight",
+    //     "img": dsh12,
+    //     // "img": "https://hildaskitchenblog.com/wp-content/uploads/2019/10/mexican-rice-bowl-8.jpg",
+    //     "price": "300",
+    //     "info": {
+    //         "mainIngredients": "Stir-Fried Vegetables & Sesame Ginger Sauce",
+    //         "calories": 420
+    //     },
+    //     "description": "A delicious rice bowl loaded with a variety of fresh vegetables and savory seasonings.",
+    //     "quantity": "1"
+    // }
+]
